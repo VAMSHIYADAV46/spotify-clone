@@ -1,0 +1,378 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    overflow: hidden;
+    color: whitesmoke;
+  }
+
+
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.1rem;
+    background-color: black;
+}
+
+
+.sidemenu{
+    background-color: black;
+    width: 300px;
+    border-radius: 1rem;    /* 1 rem = 16 px*/
+    margin: 5px;
+    height: 88%;
+}
+
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;    
+    margin-top: 0.4rem;
+    margin-left: 0px;
+    margin-right: 0.5rem;
+    overflow: auto;
+    height: 40.3rem;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.music-player{
+    background-color: #121212;
+    position: fixed;
+    bottom: 0px;
+    width: 99%;
+    height: 72px;
+    border-radius: 1rem;    
+    margin: 5px;
+
+}
+
+i{
+    background-color: #121212;
+}
+
+a{
+    text-decoration: none;
+    background-color: #121212;
+}
+
+.nav{
+    height: 7rem;
+    background-color: #121212;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.7rem 0.75rem;
+    padding-left:3rem;
+}
+
+.nav-option{
+    background-color: #121212;
+    line-height: 2.5rem;
+    opacity: 0.75;
+    padding: 0.7rem 0.75rem;
+    
+}
+
+
+
+.nav-option a{
+    padding-left:0.6rem;
+}
+
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option:hover{
+    opacity: 1;
+}
+
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 31rem;
+    margin-top: 0.3rem;
+    padding: 0.7rem 0.75rem;
+}
+
+.options{
+    background-color:#121212;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+.library-option img{
+    background-color:#121212;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.icons{
+    background-color: #121212;
+}
+
+.library-option{
+    background-color: #121212;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+
+.icons i{
+    opacity:0.7;
+    margin-right: 1rem;
+}
+
+.icons i:hover{
+    opacity:1;
+}
+
+
+.box{
+    background-color: #232323;
+    height: 6rem;
+    border-radius: 0.75rem;
+    margin: 0.5rem 0  0.5rem 0;
+    padding: 0.75rem 1.5rem;
+}
+
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+}
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.9;
+    line-height: 1.5rem;
+   
+
+}
+
+.badge{
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 0.2rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
+
+.box-2{
+    height:10rem;
+}
+
+
+.dowload-icon{
+    background-color: black;
+    color: white;
+}
+
+
+.user-icon{
+    font-size: 1.3rem;
+    padding-top:0.5rem;
+}
+
+.bell-icon{
+    font-size: 1.3rem;
+    padding-top:0.5rem;
+}
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons{
+    margin-left: 1rem;
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.install-app{
+    background-color: black;
+    color: white;
+    padding: 1.2rem 1rem;
+}
+
+
+@media (max-width: 1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.card-container{
+    display: flex;
+    width:auto;
+    /* margin-right: ; */
+    flex-wrap: wrap;
+
+    
+}
+
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+   
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title {
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.card-info{
+    /* line-height: 30px; */
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+
+
+.music-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.player{
+    width: 50%;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-right: 1rem;
+    width: 25%;
+}
+
+
+.player-controls img{
+    height: 1.2rem;
+    margin-right: 1.5rem;
+    opacity: 0.5;
+}
+
+
+.player-controls img:hover{
+
+    opacity:1;
+}
+.player-controls .pause{
+    height:2.4rem;
+    opacity: 1;
+}
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7rem;
+    margin-bottom: 0.1rem;
+    padding-left: 3rem;
+}
+
+.playback-bar{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar{
+    width: 70%;
+    cursor: pointer;
+}
+
+.badge:hover{
+    transform: scale(1.09);
+}
+
+.sticky-nav-options i:hover{
+    transform: scale(1.1);
+}
+
+.curr-playing{
+    height: 3.5rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+}
+
+.curr-song{
+    width: 20%;
+}
+
+.curr-info{
+    width: 50%;
+}
+
+.heart-icon{
+    width: 20%;
+}
+
+.controls .items{
+    margin-left: 1rem;
+    height: 1rem;
+    opacity: 0.5;
+    
+}
+
+
+.controls .items:hover{
+    opacity: 1;
+}
+.vol{
+    margin-left: 0.25rem;
+}
