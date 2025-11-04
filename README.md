@@ -87,8 +87,8 @@ spotify-clone/
 └── README.md
 ```
 
----
 
+<!--
 ## 📸 **Screenshots**
 
 <div align="center">
@@ -99,7 +99,7 @@ spotify-clone/
 ### Mobile View
 ![Mobile View](https://via.placeholder.com/400x600/191414/1DB954?text=Spotify+Clone+Mobile+View)
 
-</div>
+ </div> -->
 
 ---
 
@@ -185,7 +185,7 @@ SOFTWARE.
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VAMSHIYADAV46)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mekalavamshiyadav)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vamshis-portfolio.onrender.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mekalavamshiyadav46@gmail.com)
+
 
 </div>
 
